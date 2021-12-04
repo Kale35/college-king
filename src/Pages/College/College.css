@@ -1,0 +1,65 @@
+.college {
+    padding-top: 60px;
+}
+
+.content__header {
+    height: 70px;
+    margin-top: -10px;
+    display: flex;
+    min-width: 100%;
+}
+
+.content__header > Button {
+    color: #a51c30;
+    border: 2px solid #a51c30;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    box-shadow: -1px 2px 6px #a51c30;
+    min-height: 80%;
+    min-width: 12.5%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    resize: none;
+}
+
+.content__input {
+    height: 45px;
+    width: 63%;
+    margin-top: 35px;
+    margin-left: 45px;
+    border: none;
+    background-color: #ececec;
+    text-decoration-color: #8d8d8d;
+    font-size: medium;
+    filter: drop-shadow(0 1px 0.1rem rgb(87, 87, 87));
+}
+
+.content__input:focus {
+    outline: none;
+}
+
+.content__input[type='text'] {
+    padding-left: 10px;
+}
+
+.content__selection {
+    display: flex;
+    width: 95%;
+    align-self: center;
+    margin-top: 50px;
+    float: inline-start;
+}
+
+@media screen and (max-width: 600px) {
+    .content__input {
+        margin-right: 30px;
+        font-size: small;
+    }
+
+    .content__header > Button {
+        font-size: x-small;
+    }
+}

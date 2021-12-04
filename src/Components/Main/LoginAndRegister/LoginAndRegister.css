@@ -1,0 +1,126 @@
+.login-register-modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.login-register-modal__close {
+    height: 30px;
+    width: 100%;
+}
+
+.login-register-modal__close > Button {
+    color: rgb(228, 90, 90);
+    width: 10px;
+    height: 10px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.login-register-modal__wrapper {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.login-register-modal__contents {
+    align-self: center;
+    margin-top: -25px;
+}
+
+.login-register-modal__logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.login-register-modal__tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.login-register-modal__tabs > button {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.login-register-inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-register-input {
+    margin-top: 25px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(0 1px 0.1rem rgb(87, 87, 87));
+}
+
+.login-register-input:focus {
+    outline: none;
+}
+
+.login-register-input[type='text'] {
+    padding-left: 10px;
+}
+
+.login-register-input[type='email'] {
+    padding-left: 10px;
+}
+
+.login-register-input[type='password'] {
+    padding-left: 10px;
+}
+
+.login-register-link {
+    margin-top: 25px;
+    align-self: flex-start;
+    font-size: 14px;
+    color: rgb(42, 147, 189);
+    text-decoration: none;
+}
+
+.register-form > Button {
+    height: 40px;
+    width: 90px;
+    margin-bottom: 30%;
+    align-self: center;
+}
+
+.login-form > Button {
+    height: 40px;
+    width: 90px;
+    align-self: center;
+}

@@ -1,0 +1,34 @@
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__img {
+    width: 90%;
+    height: 350px;
+    align-self: center;
+    margin-top: 110px;
+}
+
+.home__search {
+    border: none;
+    width: 575px;
+    height: 50px;
+    background-color: white;
+    font-size: larger;
+    filter: drop-shadow(0 1px 0.1rem rgb(87, 87, 87));
+    margin-top: 70px;
+    align-self: center;
+}
+
+.home__search:focus {
+    outline: none;
+}
+
+.home__search[type='text'] {
+    padding-left: 10px;
+}
+
+.home__search:onclick {
+    border: none;
+}

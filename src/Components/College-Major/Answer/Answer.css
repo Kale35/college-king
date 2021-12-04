@@ -1,0 +1,9 @@
+.answer {
+    text-align: justify;
+    margin-top: 30px;
+    border-left: solid 15px blue;
+}
+
+.answer > p {
+    margin-left: 10px;
+}

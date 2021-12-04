@@ -1,0 +1,40 @@
+.college-header {
+    background-color: #a51c30;
+    min-height: 165px;
+    width: 100%;
+    display: flex;
+}
+
+.college-header__college {
+    padding-bottom: 50px;
+}
+
+.college-header__title {
+    color: whitesmoke;
+    font-family: 'arial';
+    font-size: 40px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.college-header__rating {
+    color: whitesmoke;
+    margin-left: 45px;
+    font-size: 40;
+}
+
+.college-header__details {
+    color: whitesmoke;
+    margin-left: 36.75vw;
+    margin-top: 40px;
+    line-height: 30px;
+    text-align: justify;
+    position: inherit;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+    .college-header__details {
+        display: none;
+    }
+}
